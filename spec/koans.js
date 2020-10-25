@@ -177,10 +177,10 @@ describe('a template string, is wrapped in ` (backticks) instead of \' or ". ', 
 
     it('inside "${...}" can also be a function call', function() {
       function getSchool(){
-        return 'Ironhack';
+        return 'Bcncodes';
       }
       var evaluated = `getSchool()`;
-      //expect(evaluated).toBe('Ironhack');
+      //expect(evaluated).toBe('Bcncodes');
     });
 
   });
