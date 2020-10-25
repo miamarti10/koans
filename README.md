@@ -32,27 +32,20 @@ it('`var` works as usual, it does not restricts scope', () => {
 });
 ```
 
-When we uncomment the line and refresh the `SpecRunner.html` page, we will see something like that:
+Cuando descomentas la línea y refrescas la página `SpecRunner.html` se ve la siguiente página:
 
 ![image](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_0a3269347ff9cf345534607ba27809d2.png)
 
-**The primary goal is not to finish all the tests. We want you to understand why each test is failing and how does JavaScript ES6 work in specific scopes.**
+**El objetivo no es finalizar todos los tests. Lo que se pretende es que comprendas por qué falla cada test y cómo lo resuelve javaScript.**
 
-To do that, the correct workflow is the one used on Test Driven Development([TDD](https://en.wikipedia.org/wiki/Test-driven_development)):
+Esta manera de trabajar se denomina Test Driven Development([TDD](https://en.wikipedia.org/wiki/Test-driven_development)):
 
-- Uncomment the test
-- Refresh the page to see that the uncommented test is failing
-- Change the code to pass the test
-- Refresh the page to see that the test is passing
+- Descomenta el test
+- Refresca la página
+- Cambia el código y pasa el test
+- Refresca la página y comprueba si has pasado el test
 
-:::warning 
-Leave the expect lines unchanged! 👀 
-:::
+ℹ️ 
+Las líneas de expect no se deben alterar.
 
-This process has to be done for each test. **Do not uncomment all the tests and launch the app. It will be more difficult for you to see if your code is passing the tests.**
 
-Since the Koans includes tests about a lot of the ES6 features, you can keep practicing individually after class. 
-
-As we said, this is an excellent way to learn things about a programming language. 
-
-Happy coding! :heart:
